@@ -1,0 +1,107 @@
+
+@font-face {
+    font-family: nichrome;
+    src: url(../assets/md-nichrome-test/MDNichromeTest-Regular.otf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../assets/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+.hText{
+    color: #00A859;
+    font-family: nichrome;
+}
+
+.loginText{
+    color: #7c797a;
+    font-family: inter;
+}
+
+.loginLink{
+    color: #F58634;
+    font-family: inter;
+}
+
+.inputTag{
+    color: #7c797a;
+    font-family: inter;
+}
+           
+                    /* Chrome, Safari, Edge, Opera */
+                    .inputNumType::-webkit-outer-spin-button,
+                    .inputNumType::-webkit-inner-spin-button {
+                      -webkit-appearance: none;
+                      margin: 0;
+                    }
+
+.line{
+    display: flex;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+
+.line::before{
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: #7c797a30;
+    margin: 0px;
+}
+
+.cbText1{
+    color: #7c797a;
+    font-family: inter;
+}
+
+.cbText2{
+    color: #00A859;
+    font-family: inter;
+}
+
+.BtnSignUp{
+    background-color: #00A859;
+    font-family: inter;
+}
+
+/* RESPONSIVENESS */
+
+@media(max-width: 900px){
+
+   .leftContainer{
+      background-position: center;
+   }
+}
+
+@media(max-width: 700px){
+
+   .mainContainer{
+      display: block;
+   }
+
+   .leftContainer{
+      background-position: unset;
+   }
+
+   .leftContainer, .rightContainer{
+      width: 100%;
+   }
+}
+
+@media(max-width: 470px){
+
+   .leftContainer{
+      background-position: center;
+   }
+
+   .rightContainer{
+      padding-left: 0px;
+   }
+
+
+   .formBox{
+      width: 90%;
+      margin: auto;
+   }
+}
