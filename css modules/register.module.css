@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: nichrome;
-    src: url(../assets/md-nichrome-test/MDNichromeTest-Regular.otf);
+    src: url(../src/assets/md-nichrome-test/MDNichromeTest-Regular.otf);
 }
 
 @font-face {
     font-family: inter;
-    src: url(../assets/Inter/static/Inter_18pt-Regular.ttf);
+    src: url(../src/assets/Inter/static/Inter_18pt-Regular.ttf);
 }
 
 .hText{
