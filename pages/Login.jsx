@@ -1,3 +1,4 @@
+
 import React, { useRef, useEffect } from "react";
 
 // PROPS
@@ -6,12 +7,12 @@ import RegLogBtn from "../props/RegLogBtn";
 //MEDIA/ICONS
 import openEye from "../assets/icons/eye.png";
 import hideEye from "../assets/icons/hidden.png";
-import leftBgImg from "../assets/media/Left.png"
+import leftBgImg from "../assets/media/Left.png";
 
 // CSS MODULES
 import regCss from "../css modules/register.module.css";
 
-const Register = () => {
+const Login = () => {
   const passwordInpRef = useRef(null);
   const buttonRef = useRef(null);
   const openImgRef = useRef(null);
@@ -51,39 +52,27 @@ const Register = () => {
 
         {/* RIGHT */}
         <div
-          className={`h-[585px] w-[50%] pt-[70px] pl-[60px] ${regCss.rightContainer}`}
+          className={`h-[585px] w-[50%] pt-[130px] pl-[60px] ${regCss.rightContainer}`}
         >
           <div className={` w-[80%] ${regCss.formBox}`}>
             <h4 className={`font-bold text-[40px] mb-[10px] ${regCss.hText}`}>
-              Sign up
+              Login
             </h4>
 
             {/* sign in link */}
             <span className={` font-normal text-[16px] ${regCss.loginText}`}>
               Already have an account?{" "}
             </span>
-            <a href="/Login" className={` font-bold text-[16px] ${regCss.loginLink}`}>
-              Sign In
+            <a href="/" className={` font-bold text-[16px] ${regCss.loginLink}`}>
+              Sign Up
             </a>
 
             {/* form */}
             <form action="" className=" w-full ">
               <input
-                type="text"
-                placeholder="Your name"
-                className={`block focus:outline-none w-full font-normal text-[16px] mt-[20px] ${regCss.inputTag}`}
-              />
-              <div className={`${regCss.line}`}></div>
-              <input
                 type="email"
                 placeholder="Email Address"
                 className={`block focus:outline-none w-full font-normal text-[16px] mt-[20px] ${regCss.inputTag}`}
-              />
-              <div className={`${regCss.line}`}></div>
-              <input
-                type="number"
-                placeholder="Phone Number"
-                className={`block focus:outline-none w-full font-normal text-[16px] mt-[20px] ${regCss.inputNumType} ${regCss.inputTag}`}
               />
               <div className={`${regCss.line}`}></div>
 
@@ -113,20 +102,15 @@ const Register = () => {
 
               <div className={`${regCss.line}`}></div>
 
-              <div className="mt-[25px] items-center flex items-center gap-[10px]">
+              <div className="mt-[25px] flex items-center gap-[10px]">
                 <input type="checkbox" className=" h-[20px] w-[20px]" />
-                <div>
+                <div className=" flex justify-between w-full">
                   <span className={`font-normal text-[16px] ${regCss.cbText1}`}>
-                    I agree with{" "}
+                    Remember me{" "}
                   </span>
+
                   <span className={`font-bold text-[16px] ${regCss.cbText2}`}>
-                    Privacy Policy{" "}
-                  </span>
-                  <span className={`font-normal text-[16px] ${regCss.cbText1}`}>
-                    and{" "}
-                  </span>
-                  <span className={`font-bold text-[16px] ${regCss.cbText2}`}>
-                    Terms of Use
+                    Forgot Password?
                   </span>
                 </div>
               </div>
@@ -139,4 +123,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Login;
