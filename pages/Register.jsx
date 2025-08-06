@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 
 // PROPS
-import RegLogBtn from "../props/regLogBtn";
+import RegLogBtn from "../props/RegLogBtn";
 
 //MEDIA/ICONS
 import openEye from "../assets/icons/eye.png";
