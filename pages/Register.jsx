@@ -6,6 +6,7 @@ import RegLogBtn from "../props/RegLogBtn";
 //MEDIA/ICONS
 import openEye from "../assets/icons/eye.png";
 import hideEye from "../assets/icons/hidden.png";
+import leftBgImg from "../assets/media/Left.png"
 
 // CSS MODULES
 import regCss from "../css modules/register.module.css";
@@ -45,7 +46,7 @@ const Register = () => {
       <section className={`flex h-full w-full ${regCss.mainContainer}`}>
         {/* LEFT */}
         <div
-          className={` h-[585px] w-[50%] bg-[url(../assets/media/Left.png)] bg-cover bg-no-repeat ${regCss.leftContainer}`}
+          className={` h-[585px] w-[50%] bg-[url(${leftBgImg})] bg-cover bg-no-repeat ${regCss.leftContainer}`}
         ></div>
 
         {/* RIGHT */}
