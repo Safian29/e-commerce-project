@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 // PROPS
 import RegLogBtn from "../props/RegLogBtn";
@@ -62,9 +63,9 @@ const Register = () => {
             <span className={` font-normal text-[16px] ${regCss.loginText}`}>
               Already have an account?{" "}
             </span>
-            <a href="/Login" className={` font-bold text-[16px] ${regCss.loginLink}`}>
+            <Link to="/Login" className={` font-bold text-[16px] ${regCss.loginLink}`}>
               Sign In
-            </a>
+            </Link>
 
             {/* form */}
             <form action="" className=" w-full ">
