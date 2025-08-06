@@ -44,7 +44,9 @@ const Register = () => {
     <>
       <section className={`flex h-full w-full ${regCss.mainContainer}`}>
         {/* LEFT */}
-        <div className={` h-[585px] w-[50%] bg-[url(../assets/media/Left.png)] bg-cover bg-no-repeat ${regCss.leftContainer}`}></div>
+        <div
+          className={` h-[585px] w-[50%] bg-[url(../assets/media/Left.png)] bg-cover bg-no-repeat ${regCss.leftContainer}`}
+        ></div>
 
         {/* RIGHT */}
         <div
