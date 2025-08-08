@@ -63,7 +63,7 @@ const Login = () => {
             <span className={` font-normal text-[16px] ${regCss.loginText}`}>
               Already have an account?{" "}
             </span>
-            <Link to="/" className={` font-bold text-[16px] ${regCss.loginLink}`}>
+            <Link to="/home" className={` font-bold text-[16px] ${regCss.loginLink}`}>
               Sign Up
             </Link>
 
