@@ -58,7 +58,7 @@ const Home = () => {
             </div>
 
             <button
-              className={`h-[45px] w-[135px] text-[16px] font-semibold text-white rounded-md flex items-center gap-[5px] pl-[15px] pr-[15px] ${homeCss.leftShopBtn}`}
+              className={`h-[45px] w-[150px] text-[16px] font-semibold text-white rounded-md flex justify-center items-center gap-[5px] pl-[15px] pr-[15px] ${homeCss.leftShopBtn}`}
             >
               <h4>Shop Now </h4>
               <img
