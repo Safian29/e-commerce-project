@@ -1,0 +1,102 @@
+@font-face {
+    font-family: inter;
+    src: url(../src/assets/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+
+.searchIcon{
+    border-left: 1.8px solid #DDDDDD;
+    border-right: 1.8px solid #DDDDDD;
+}
+
+.contactBtn{
+    background-color: #00A859;
+    font-family: inter;
+}
+
+.navLinks, .contactBtn{
+    font-family: inter;
+}
+/* 
+a.active {
+  font-size: 16px;
+  font-weight: 500;
+  transition: 1.5s ease;
+}
+a.pending {
+  font-size: 16px;
+  font-weight: 500;
+  transition: 1.5s ease;
+}
+a.transitioning {
+  font-size: 20px;
+  font-weight: 700;
+} */
+
+
+@media(max-width: 1100px){
+
+  .menuBtn{
+    display: block;
+  }
+
+  .navConIn{
+     animation: slideIn 1s;
+}
+
+@keyframes slideIn{
+   0%{
+      transform: translateX(-300px);}
+
+    50%{
+      transform: translateX(300px);}
+
+    100%{
+      transform: translateX(0px);}
+}
+
+  .navConOut{
+     animation: slideOut 1s;
+}
+
+@keyframes slideOut{
+   0%{
+      transform: translateX(300px);}
+
+    50%{
+      transform: translateX(600px);}
+
+    100%{
+      transform: translateX(-300px);}
+}
+
+
+
+
+
+
+  .navContainer, .contactBtn, .loveIcon, .cartIcon, .searchIcon{
+    display: none;
+  }
+
+  .logoTag{
+   position: relative;
+    right: 0px;
+  }
+
+  .menuBtn{
+    position: relative;
+    left: 0px;
+  }
+
+}
+
+@media(max-width: 1100px){
+
+    .miniHeaderTag{
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}

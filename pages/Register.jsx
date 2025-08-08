@@ -63,7 +63,7 @@ const Register = () => {
             <span className={` font-normal text-[16px] ${regCss.loginText}`}>
               Already have an account?{" "}
             </span>
-            <Link to="/Login" className={` font-bold text-[16px] ${regCss.loginLink}`}>
+            <Link to="/login" className={` font-bold text-[16px] ${regCss.loginLink}`}>
               Sign In
             </Link>
 

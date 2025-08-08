@@ -1,0 +1,228 @@
+*{
+    /* border: 1px solid rgb(0, 42, 254); */
+}
+
+
+@font-face {
+    font-family: inter;
+    src: url(../src/assets/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: nichrome;
+    src: url(../src/assets/md-nichrome-test/MDNichromeTest-Regular.otf);
+}
+
+
+.mainContainer{
+    background-image: url("../src/assets/media/Vector\ \(2\).png"), url("../src/assets/media/Vector\ \(3\).png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-position: 0px 320px, 0px 387px;
+}
+
+
+/* LEFT */
+
+.leftT1{
+    font-family: inter;
+}
+
+.leftT2g{
+    font-family: nichrome;
+    color: #00A859;
+}
+
+.leftT2o{
+    font-family: nichrome;
+    color: #F58634;
+}
+
+.leftShopBtn{
+    font-family: inter;
+    background-color: #F58634;
+}
+
+/* RIGHT */
+
+.rightT1{
+    font-family: nichrome;
+}
+
+.rightT2{
+    font-family: inter;
+}
+
+.spicyHt{
+    font-family: nichrome;
+}
+
+.spicyT{
+    font-family: inter;
+}
+
+/* .mainSpicy{
+    background-color: #34c052;
+} */
+
+
+
+
+/* RESPONSIVENESS */
+
+@media(max-width: 1100px){
+
+    .mainContainer{
+    display: block;
+    margin-top: 50px;
+    background-image: url("../src/assets/media/Vector\ \(2\).png"), url("../src/assets/media/Vector\ \(3\).png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1600px, 1600px ;
+    background-position: bottom, bottom;
+        
+    }
+
+    .leftContainer, .rightContainer{
+        margin: auto;
+        width: 60%;
+    }
+
+    .leftT2Div{
+        width: 100%;
+    }
+
+    .mainSpicy{
+        height: fit-content;
+        margin-top: -21px;
+    }
+
+    .spicyImgWhite{
+        position: relative;
+        bottom: -5px;
+    }
+
+}
+
+@media(max-width: 955px){
+
+    .leftContainer, .rightContainer{
+        width: 75%;
+    }
+}
+
+@media(max-width: 900px){
+
+    .spicy1{
+        display: block;
+    }
+
+    .spicy{
+        height: 430px;
+    }
+
+    .spicyTdiv{
+        margin: auto;
+        width: 30%;
+    }
+
+    .spicyImgWhite{
+        position: relative;
+        bottom: 60px;
+    }
+
+}
+
+@media(max-width: 800px){
+
+    .leftContainer, .rightContainer{
+        width: 75%;
+    }
+
+    .spicyImgWhite{
+        position: relative;
+        bottom: 55px;
+    }
+}
+
+@media(max-width: 700px){
+
+    .mainContainer{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .innerRightCon{
+        display: block;
+        
+    }
+
+    .deliveryContainer, .dineContainer, .pickUpContainer{
+        margin: auto;
+    }
+
+}
+
+@media(max-width: 650px){
+
+     .mainContainer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .spicyImgWhite{
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+@media(max-width: 500px){
+
+    .leftContainer, .rightContainer{
+        width: 90%;
+    }
+
+    .leftT2g, .leftT2o{
+        font-size: 50px;
+    }
+
+    .spicy{
+        height: 410px;
+    }
+
+    .spicyImgWhite{
+        position: relative;
+        bottom: 65px;
+    }
+}
+
+@media(max-width: 394px){
+
+    .spicy{
+        height: 430px;
+    }
+
+    .spicyImgWhite{
+        position: relative;
+        bottom: 65px;
+    }
+}
+
+@media(max-width: 355px){
+
+    .spicy{
+        height: 480px;
+    }
+
+    .spicyImgWhite{
+        position: relative;
+        bottom: 40px;
+    }
+}
+
+@media(max-width: 342px){
+
+    .spicyImgWhite{
+        position: relative;
+        bottom: 65px;
+    }
+}
