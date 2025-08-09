@@ -15,7 +15,7 @@
 
 
 .mainContainer{
-    background-image: url("../src/assets/media/Vector\ \(2\).png"), url("../src/assets/media/Vector\ \(3\).png");
+    background-image: url("../public/media/Vector\ \(2\).png"), url("../public/media/Vector\ \(3\).png");
     background-repeat: no-repeat, no-repeat;
     background-size: contain, contain;
     background-position: 0px 320px, 0px 387px;
@@ -75,7 +75,7 @@
     .mainContainer{
     display: block;
     margin-top: 50px;
-    background-image: url("../src/assets/media/Vector\ \(2\).png"), url("../src/assets/media/Vector\ \(3\).png");
+    background-image: url("../public/media/Vector\ \(2\).png"), url("../public/media/Vector\ \(3\).png");
     background-repeat: no-repeat, no-repeat;
     background-size: 1600px, 1600px ;
     background-position: bottom, bottom;

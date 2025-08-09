@@ -7,14 +7,14 @@ import Header from "./Header";
 import homeCss from "../css modules/home.module.css";
 
 //MEDIA/ICONS
-import shopLogoBtn from "../src/assets/media/solar_shop-outline.png";
-import lineDots from "../src/assets/media/Frame 104.png";
-import foodImg from "../src/assets/media/Frame 142.png";
-import deliveryIcon from "../src/assets/media/Frame 93 (1).png";
-import pickUpIcon from "../src/assets/media/Frame 93 (2).png";
-import dineIcon from "../src/assets/media/Frame 93.png";
-import bgImg1 from "../src/assets/media/image 40.png";
-import bgImg2 from "../src/assets/media/Rectangle 84.png";
+import shopLogoBtn from "../public/media/solar_shop-outline.png";
+import lineDots from "../public/media/Frame 104.png";
+import foodImg from "../public/media/Frame 142.png";
+import deliveryIcon from "../public/media/Frame 93 (1).png";
+import pickUpIcon from "../public/media/Frame 93 (2).png";
+import dineIcon from "../public/media/Frame 93.png";
+import bgImg1 from "../public/media/image 40.png";
+import bgImg2 from "../public/media/Rectangle 84.png";
 
 const Home = () => {
   return (
