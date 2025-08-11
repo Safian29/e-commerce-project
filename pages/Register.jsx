@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import RegLogBtn from "../props/RegLogBtn";
 
 //MEDIA/ICONS
-import openEye from "../assets_icons/eye.png";
-import hideEye from "../assets_icons/hidden.png";
-import leftBgImg from "../assets_media/Left.png";
+import openEye from "../public/assets_icons/eye.png";
+import hideEye from "../public/assets_icons/hidden.png";
+import leftBgImg from "../public/assets_media/Left.png";
 
 // CSS MODULES
 import regCss from "../css modules/register.module.css";
