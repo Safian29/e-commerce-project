@@ -7,7 +7,7 @@ import RegLogBtn from "../props/RegLogBtn";
 //MEDIA/ICONS
 import openEye from "../src/public/assets_icons/eye.png";
 import hideEye from "../src/public/assets_icons/hidden.png";
-import leftBgImg from "../src/public/assets_media/Left.png";
+import leftBgImg from "../src/public/assets_media/Left.jpg";
 
 // CSS MODULES
 import regCss from "../css modules/register.module.css";
