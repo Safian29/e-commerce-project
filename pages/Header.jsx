@@ -9,11 +9,11 @@ import SlideIn from '../components/SlideIn';
 import SlideOut from '../components/SlideOut';
 
 //MEDIA/ICONS
-import logo from "../assets2/media/Foodies logo without Banner 1.png";
-import searchIconImg from "../assets2/media/Frame 74.png";
-import loveIconImg from "../assets2/media/Frame 73.png";
-import cartIconImg from "../assets2/media/Frame 72.png";
-import menuImg from "../assets2/media/menuIcon.png";
+import logo from "../assets_media/Foodies logo without Banner 1.png";
+import searchIconImg from "../assets_media/Frame 74.png";
+import loveIconImg from "../assets_media/Frame 73.png";
+import cartIconImg from "../assets_media/Frame 72.png";
+import menuImg from "../assets_media/menuIcon.png";
 
 // CSS MODULES
 import headerCss from "../css modules/header.module.css";
