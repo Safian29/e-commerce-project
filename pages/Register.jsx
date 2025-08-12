@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 // PROPS
-import RegLogBtn from "../props/RegLogBtn";
+import RegLogBtn from "../props/RegLogBtnProp";
 
 //MEDIA/ICONS
 import openEye from "../src/public/assets_icons/eye.png";

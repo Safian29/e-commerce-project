@@ -66,8 +66,6 @@
 } */
 
 
-
-
 /* RESPONSIVENESS */
 
 @media(max-width: 1100px){
@@ -225,4 +223,57 @@
         position: relative;
         bottom: 65px;
     }
+}
+
+
+/* SECTION 2 */
+
+.headText1, .headText2{
+    font-family: nichrome;
+}
+
+.smallText1, .smallText2, .smallText3{
+    font-family: inter;
+    color: #4D4D4D;
+
+}
+.buttonText1, .buttonText2{
+    font-family: inter;
+    color: #00A859;
+    border: 2px solid #00A859;
+}
+
+.smallText4{
+    font-family: inter;
+}
+
+@media(max-width: 414px){
+
+.headText1{
+   font-size: 45px;
+}
+}
+
+
+@media(max-width: 878px){
+
+    .headText1{
+        text-align: center;
+    }
+
+    .smTxtNbtn{
+        display: block;
+    }
+
+    .smTxtDiv{
+       width: 100%;
+       margin: auto;
+       text-align: center;
+    }
+
+    .btnTxtDiv{
+        margin-top: 20px;
+        text-align: center;
+    }
+
 }

@@ -2,6 +2,7 @@ import React from "react";
 
 //PAGES
 import Header from "./Header";
+import HomeSec2 from "./home page sections/HomeSec2";
 
 // CSS MODULES
 import homeCss from "../css modules/home.module.css";
@@ -199,6 +200,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* SECTION 2 */}
+      <HomeSec2/>
     </div>
   );
 };
