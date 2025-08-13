@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 // PROPS
 import HomeSec2Prop from "../../props/HomeSec2Prop";
 import HomeSec2Prop2 from "../../props/HomeSec2Prop2";
+
+// CSS MODULES
+import homeCss from "../../css modules/home.module.css";
 
 //MEDIA/ICONS
 import chipsImg from "../../src/public/assets_media/chips.png";
@@ -12,6 +15,8 @@ import loveImg from "../../src/public/assets_media/love.png";
 import starImg from "../../src/public/assets_media/star.png";
 
 const HomeSec2 = () => {
+  const [hoverIndex, setHoverIndex] = useState(0);
+
   const arrOfObj = [
     {
       id: 1,
@@ -48,22 +53,6 @@ const HomeSec2 = () => {
     },
   ];
 
-  const loopThroughArray = arrOfObj.map((obj) => {
-    return (
-      <HomeSec2Prop2
-        key={obj.id}
-        img={obj.image}
-        smText2={obj.smallText2}
-        loveImg={obj.loveImage}
-        hText2={obj.headText2}
-        starImg={obj.starImage}
-        smText3={obj.smallText3}
-        smText4={obj.smallText4}
-        btnText2={obj.buttontext2}
-      />
-    );
-  });
-
   return (
     <div>
       <section className={`w-full pr-[62px] pl-[62px] mt-[80px]`}>
@@ -73,9 +62,34 @@ const HomeSec2 = () => {
           btnText1="Browse All"
         />
         <div
-          className={`w-full flex flex-wrap justify-center items-center gap-[15px] mt-[40px]`}
+          className={`w-full flex flex-wrap justify-center items-center gap-[15px] mt-[40px] }`}
         >
-          {loopThroughArray}
+          {arrOfObj.map((obj, index) => (
+            <div
+              key={obj.id}
+              className={``}
+              onMouseEnter={() => setHoverIndex(index)}
+            >
+              <HomeSec2Prop2
+                img={obj.image}
+                smText2={obj.smallText2}
+                loveImg={obj.loveImage}
+                hText2={obj.headText2}
+                starImg={obj.starImage}
+                smText3={obj.smallText3}
+                smText4={obj.smallText4}
+                btnText2={obj.buttontext2}
+              />
+            </div>
+          ))}
+        </div>
+        <div
+          className={`mb-[60px] w-[1080px] h-[3px] m-auto bg-zinc-300 relative ${homeCss.lineContainer}`}
+        >
+          <span
+            className={`w-[350px] h-full bg-black absolute left-[0px] top-[0px] transition-[transform 0.5s ease-in] ${homeCss.blackLine}`}
+            style={{ transform: `translateX(${hoverIndex * 104.3}%)`, transition: `transform 0.5s ease` }}
+          ></span>
         </div>
       </section>
     </div>

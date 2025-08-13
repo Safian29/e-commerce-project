@@ -15,7 +15,7 @@ const HomeSec2Prop2 = ({
 }) => {
   return (
     <div>
-      <div className={`w-[100%]`}>
+      <div className={`w-[350px] ${homeCss.card} `}>
         <img src={img} alt="image" className={`object-contain`} />
         <div className={`w-full flex justify-between items-center mt-[20px]`}>
           <h4 className={`font-normal text-[14px] ${homeCss.smallText2}`}>
@@ -40,11 +40,11 @@ const HomeSec2Prop2 = ({
           </h4>
         </div>
         <button
+          type="button"
           className={`font-semibold text-[18px] w-full h-[50px] rounded-md mt-[30px] mb-[60px] ${homeCss.buttonText2}`}
         >
           {btnText2}
         </button>
-        {/* <div></div> */}
       </div>
     </div>
   );

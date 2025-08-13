@@ -28,6 +28,7 @@ const HomeSec2Prop = ({
         </div>
         <div className={` ${homeCss.btnTxtDiv}`}>
           <button
+          type='button'
             className={`font-semibold text-[18px] w-[162px] h-[60px] rounded-md ${homeCss.buttonText1}`}
           >
             {btnText1}

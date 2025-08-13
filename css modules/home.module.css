@@ -247,15 +247,28 @@
     font-family: inter;
 }
 
-@media(max-width: 414px){
-
-.headText1{
-   font-size: 45px;
+.card:nth-child(1):hover .buttonText2{
+     /* transform: translateX(0%); */
+     background-color: #00A859;
+     color: aliceblue;
 }
+
+.card:nth-child(2):hover .buttonText2{
+     /* transform: translateX(100%); */
+     background-color: #00A859;
+     color: aliceblue;
+}
+
+.card:nth-child(3):hover .buttonText2{
+     /* transform: translateX(200%); */
+     background-color: #00A859;
+     color: aliceblue;
 }
 
 
-@media(max-width: 878px){
+/* RESPONSIVENESS */
+
+@media(max-width: 838px){
 
     .headText1{
         text-align: center;
@@ -276,4 +289,11 @@
         text-align: center;
     }
 
+}
+
+@media(max-width: 414px){
+
+.headText1{
+   font-size: 45px;
+}
 }
