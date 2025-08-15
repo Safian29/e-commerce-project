@@ -55,14 +55,16 @@ const HomeSec2 = () => {
 
   return (
     <div>
-      <section className={`w-full pr-[62px] pl-[62px] mt-[80px]`}>
+      <section
+        className={`w-full pr-[62px] pl-[62px] mt-[80px] ${homeCss.mainConSec2}`}
+      >
         <HomeSec2Prop
           hText1="Our Popular Products"
           smText1="Browse our most popular snacks and make your day more beautiful and glorious."
           btnText1="Browse All"
         />
         <div
-          className={`w-full flex flex-wrap justify-center items-center gap-[15px] mt-[40px] }`}
+          className={`w-full flex flex-wrap justify-center items-center gap-[15px] mt-[40px]`}
         >
           {arrOfObj.map((obj, index) => (
             <div
@@ -88,7 +90,10 @@ const HomeSec2 = () => {
         >
           <span
             className={`w-[350px] h-full bg-black absolute left-[0px] top-[0px] transition-[transform 0.5s ease-in] ${homeCss.blackLine}`}
-            style={{ transform: `translateX(${hoverIndex * 104.3}%)`, transition: `transform 0.5s ease` }}
+            style={{
+              transform: `translateX(${hoverIndex * 104.3}%)`,
+              transition: `transform 0.5s ease`,
+            }}
           ></span>
         </div>
       </section>

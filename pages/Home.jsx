@@ -3,6 +3,8 @@ import React from "react";
 //PAGES
 import Header from "./Header";
 import HomeSec2 from "./home page sections/HomeSec2";
+import HomeSec3 from "./home page sections/HomeSec3";
+
 
 // CSS MODULES
 import homeCss from "../css modules/home.module.css";
@@ -202,6 +204,7 @@ const Home = () => {
       </section>
       {/* SECTION 2 */}
       <HomeSec2/>
+      <HomeSec3/>
     </div>
   );
 };

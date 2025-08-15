@@ -15,7 +15,7 @@ const HomeSec2Prop2 = ({
 }) => {
   return (
     <div>
-      <div className={`w-[350px] ${homeCss.card} `}>
+      <div className={`w-[350px] ${homeCss.cardSec2} `}>
         <img src={img} alt="image" className={`object-contain`} />
         <div className={`w-full flex justify-between items-center mt-[20px]`}>
           <h4 className={`font-normal text-[14px] ${homeCss.smallText2}`}>
