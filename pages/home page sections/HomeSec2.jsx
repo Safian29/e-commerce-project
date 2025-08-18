@@ -13,6 +13,7 @@ import cookie1Img from "../../src/public/assets_media/cookie1.png";
 import cookie2Img from "../../src/public/assets_media/cookie2.png";
 import loveImg from "../../src/public/assets_media/love.png";
 import starImg from "../../src/public/assets_media/star.png";
+import HomeSec4 from "./HomeSec4";
 
 const HomeSec2 = () => {
   const [hoverIndex, setHoverIndex] = useState(0);
@@ -52,7 +53,7 @@ const HomeSec2 = () => {
       buttontext2: "Add to Cart",
     },
   ];
-
+  
   return (
     <div>
       <section

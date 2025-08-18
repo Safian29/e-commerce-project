@@ -424,3 +424,23 @@
     }
 
 }
+
+
+/* SECTION 4 */
+
+.sec4Container{
+    background-color: #EFFFE5;
+}
+
+.homeSec4HText{
+    border-bottom: 3px solid #00A859;
+    font-family: nichrome;
+}
+
+.homeSec4smText{
+    font-family: inter;
+}
+
+.HomeSec4HText2{
+    font-family: nichrome;
+}
